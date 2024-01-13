@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#navbar {
+    display: flex;
+    background-color: #1D428A;
+    opacity: 0.8;
+
+}
+
+#navbar ul{
+    display: flex;
+}
+
+
+#navbar ul li{
+    margin: 15px 30px;
+    list-style: none;
+}
+
+
+#navbar ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    padding: 10px 15px;
+    
+
+}
+#navbar ul li a:hover{
+    border:2px solid red;
+    
+    /* border-radius: 25px; */
+    transition: 2s;
+}
+
+#logo img{
+    height: 45px;
+    width: 45px;
+} 
+
+#logo{
+    margin: 10px 10px;
+}
+
+
+  
+
